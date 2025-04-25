@@ -10,8 +10,8 @@ const initialMaterials = {
 
 export default function App() {
   const [materials, setMaterials] = useState(initialMaterials);
-  const [line1, setLine1] = useState({ width: 48, speed: 100, power: 1, sides: 1 });
-  const [line4, setLine4] = useState({ width: 48, speed: 100, power: 1, sides: 1 });
+  const [line1, setLine1] = useState({ width: 48, speed: 11, power: 1.0, sides: 1 });
+  const [line4, setLine4] = useState({ width: 48, speed: 12, power: 2.3, sides: 1 });
   const [material, setMaterial] = useState('TPO');
   const [desiredDyne, setDesiredDyne] = useState(42);
 
